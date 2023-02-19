@@ -97,6 +97,11 @@ body {
 		border: 2px solid #66c05d;
 		background-color: white;
 		font-size: 14px;
+		transition: background-color 0.3s ease-in;
+	}
+	&__button:hover {
+		background-color: #66c05d;
+		color: white;
 	}
 }
 
@@ -151,6 +156,11 @@ body {
 		color: white;
 		width: 170px;
 		padding: 12px 26px;
+		transition: background-color 0.3s ease-in;
+	}
+	&__button:hover {
+		background-color: white;
+		color: #66c05d;
 	}
 }
 
@@ -217,6 +227,12 @@ body {
 		background-color: #66c05d;
 		border: none;
 		border-radius: 30px;
+		transition: background 0.3s ease;
+	}
+	&__item-button:hover {
+		background-color: white;
+		color: #66c05d;
+		border: 2px solid #66c05d;
 	}
 
 	&__feedback {
@@ -237,9 +253,8 @@ body {
 		width: 540px;
 	}
 	&__mail > img {
-		width: 140px;
-		height: 100px;
-		margin-right: 40px;
+		width: 100px;
+		padding-right: 40px;
 	}
 
 	&__mail-info {
@@ -278,11 +293,6 @@ body {
 		outline: none;
 	}
 
-	&__mail-logo {
-		bottom: 45px;
-		right: 35px;
-	}
-
 	&__map {
 		background-color: #66c05d;
 		width: 540px;
@@ -315,6 +325,11 @@ body {
 		color: white;
 		width: 170px;
 		border-radius: 30px;
+		transition: background 0.3s ease;
+	}
+	&__map-button:hover {
+		background-color: white;
+		color: #66c05d;
 	}
 }
 
@@ -345,6 +360,11 @@ body {
 		background-color: white;
 		border-radius: 30px;
 		width: 170px;
+		transition: background 0.3s ease;
+	}
+	&__button:hover {
+		background-color: #66c05d;
+		color: white;
 	}
 }
 
@@ -384,8 +404,7 @@ body {
 		}
 		&__mail > img {
 			width: 80px;
-			height: 60px;
-			margin-right: 40px;
+			padding-right: 40px;
 		}
 	}
 }
@@ -403,8 +422,7 @@ body {
 		}
 		&__mail > img {
 			width: 100px;
-			height: 80px;
-			margin-right: 40px;
+			padding-right: 40px;
 		}
 		&__header {
 			padding-top: 80px;

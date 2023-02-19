@@ -92,6 +92,11 @@ body {
   border: 2px solid #66c05d;
   background-color: white;
   font-size: 14px;
+  transition: background-color 0.3s ease-in;
+}
+.header__button:hover {
+  background-color: #66c05d;
+  color: white;
 }
 
 .second-nav__row {
@@ -139,6 +144,11 @@ body {
   color: white;
   width: 170px;
   padding: 12px 26px;
+  transition: background-color 0.3s ease-in;
+}
+.banner__button:hover {
+  background-color: white;
+  color: #66c05d;
 }
 
 .main-content {
@@ -197,6 +207,12 @@ body {
   background-color: #66c05d;
   border: none;
   border-radius: 30px;
+  transition: background 0.3s ease;
+}
+.main-content__item-button:hover {
+  background-color: white;
+  color: #66c05d;
+  border: 2px solid #66c05d;
 }
 .main-content__feedback {
   display: flex;
@@ -215,9 +231,8 @@ body {
   width: 540px;
 }
 .main-content__mail > img {
-  width: 140px;
-  height: 100px;
-  margin-right: 40px;
+  width: 100px;
+  padding-right: 40px;
 }
 .main-content__mail-info {
   background-color: #66c05d;
@@ -250,10 +265,6 @@ body {
 .main-content__mail-input:focus {
   outline: none;
 }
-.main-content__mail-logo {
-  bottom: 45px;
-  right: 35px;
-}
 .main-content__map {
   background-color: #66c05d;
   width: 540px;
@@ -283,6 +294,11 @@ body {
   color: white;
   width: 170px;
   border-radius: 30px;
+  transition: background 0.3s ease;
+}
+.main-content__map-button:hover {
+  background-color: white;
+  color: #66c05d;
 }
 
 .first-footer {
@@ -310,6 +326,11 @@ body {
   background-color: white;
   border-radius: 30px;
   width: 170px;
+  transition: background 0.3s ease;
+}
+.first-footer__button:hover {
+  background-color: #66c05d;
+  color: white;
 }
 
 .second-footer {
@@ -345,8 +366,7 @@ body {
   }
   .main-content__mail > img {
     width: 80px;
-    height: 60px;
-    margin-right: 40px;
+    padding-right: 40px;
   }
 }
 @media (max-width: 1024px) {
@@ -361,8 +381,7 @@ body {
   }
   .main-content__mail > img {
     width: 100px;
-    height: 80px;
-    margin-right: 40px;
+    padding-right: 40px;
   }
   .main-content__header {
     padding-top: 80px;
